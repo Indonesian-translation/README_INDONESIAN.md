@@ -346,7 +346,7 @@ Fungsi **onMessage** akan dipanggil ketika pesan didorong ke klien websocket.
         echo "Connection closed ({$code} - {$reason})\n";
     });                                      
 ```
-Tidak hanya teks, gambar, dan pesan jenis lainnya akan didorong ke bot Anda. Anda dapat menemukan [lebih lengkap] tentang pesan Messenger.(https://developers.mixin.one/api/beta-mixin-message/websocket-messages/) about Messenger message.
+Tidak hanya teks, gambar, dan pesan jenis lainnya akan didorong ke bot Anda. Anda dapat menemukan [lebih lengkap](https://developers.mixin.one/api/beta-mixin-message/websocket-messages/)tentang pesan Messenger.
 
 Kirim pesan operasi BACA ke server agar tahu bahwa pesan ini telah dibaca. Bot akan menerima pesan yang digandakan ketika bot terhubung ke server lagi jika bot tidak mengirim respons.
 
